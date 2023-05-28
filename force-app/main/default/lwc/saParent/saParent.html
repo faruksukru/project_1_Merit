@@ -1,0 +1,19 @@
+<template>
+<lightning-card  title="All Sales Agent Details" icon-name="action:edit_groups">
+<lightning-input variant="label-hidden" type="search" label="Search" placeholder="you should type the name of SA" onchange={handleInput} value={filterWord}></lightning-input> 
+<div  style="background-color: rgb(216, 250, 250);">
+<lightning-layout multiple-rows="True" pull-to-boundary="small">
+<template if:true={sadetails.data}>
+<template for:each={sadetails.data} for:item="SA"> 
+<lightning-layout-item key={SA.id} size="3" padding="around-small">
+<c-sa-child sadetail={SA}></c-sa-child>
+</lightning-layout-item>    
+</template>
+</template>
+<template if:true={sadetails.error}>
+<p>You have an error please check {SAList.error}</p>    
+</template>
+</lightning-layout>
+</div>
+</lightning-card>
+</template>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningMessageChannel xmlns="http://soap.sforce.com/2006/04/metadata">
+<isExposed>true</isExposed>
+<description>This Lightning Message Channel is fired when the SA list is updated</description>
+<lightningMessageFields>
+<fieldName>sadets</fieldName>
+<description>List of SA Detail</description>
+</lightningMessageFields>
+<lightningMessageFields>
+<fieldName>test</fieldName>
+<description>Test</description>
+</lightningMessageFields>
+<masterLabel>Update</masterLabel>
+</LightningMessageChannel>
