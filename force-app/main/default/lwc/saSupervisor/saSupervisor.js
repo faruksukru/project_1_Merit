@@ -5,7 +5,6 @@ export default class SaSupervisor extends LightningElement {
 @api recordId;
 @wire (getRecord, {recordId: "$recordId", fields: [ SUPERVISOR_FIELD]})  sadetail;
 get supervisorId(){
-    return getFieldValue(this.sadetail.data, SUPERVISOR_FIELD);
+return getFieldValue(this.sadetail.data, SUPERVISOR_FIELD);
 }
-
 }

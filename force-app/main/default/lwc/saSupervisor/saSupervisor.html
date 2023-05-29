@@ -1,17 +1,16 @@
 <template>
-    <lightning-card title="Supervisor" icon-name="action:edit_groups">
-    <template if:true={sadetail.data}>
-        <lightning-record-form 
-    object-api-name="Contact"
-    record-id={supervisorId}
-    layout-type="Compact">
-    </lightning-record-form>
-    </template>
-    <template if:true={sadetail.error}>
-    <div class="slds-text-color-error">
-        An Error has occurred
-    </div>
+<lightning-card title="Supervisor" icon-name="action:edit_groups">
+<template if:true={sadetail.data}>
+<lightning-record-form 
+object-api-name="Contact"
+record-id={supervisorId}
+layout-type="Compact">
+</lightning-record-form>
 </template>
-    </lightning-card>
-    </template>
-    
+<template if:true={sadetail.error}>
+<div class="slds-text-color-error">
+An Error has occurred
+</div>
+</template>
+</lightning-card>
+</template>
