@@ -10,5 +10,5 @@
         <description>Test</description>
         <fieldName>test</fieldName>
     </lightningMessageFields>
-    <masterLabel>Update</masterLabel>
+    <masterLabel>MyListUpdate</masterLabel>
 </LightningMessageChannel>

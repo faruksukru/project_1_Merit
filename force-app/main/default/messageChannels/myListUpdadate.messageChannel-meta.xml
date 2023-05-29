@@ -4,11 +4,7 @@
     <isExposed>true</isExposed>
     <lightningMessageFields>
         <description>List of SA Detail</description>
-        <fieldName>sadets</fieldName>
+        <fieldName>sadetails</fieldName>
     </lightningMessageFields>
-    <lightningMessageFields>
-        <description>Test</description>
-        <fieldName>test</fieldName>
-    </lightningMessageFields>
-    <masterLabel>Update</masterLabel>
+    <masterLabel>myListUpdate</masterLabel>
 </LightningMessageChannel>
