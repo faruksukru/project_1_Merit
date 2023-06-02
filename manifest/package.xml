@@ -28,7 +28,7 @@
         <members>*</members>
         <name>LightningComponentBundle</name>
     </types>
-   <types>
+ <types>
 <members>*</members>
 <name>LightningMessageChannel</name>
 </types>
